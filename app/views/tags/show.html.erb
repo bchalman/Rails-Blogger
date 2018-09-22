@@ -7,3 +7,5 @@
 </ul>
 <br><br>
 <%= link_to "Delete '#{@tag.name}' tag", tag_path(@tag), method: :delete, data: {confirm: "Really delete the tag?"} %>
+<span> | </span>
+<%= link_to "<< Back to Articles List", articles_path %>
