@@ -30,6 +30,9 @@ gem 'jbuilder', '~> 2.5'
 # use Paperclip to manage file attachments and uploading
 gem "paperclip"
 
+# use Sorcery for lightweight and straightforward authentication
+gem "sorcery"
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
